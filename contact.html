@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Demo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/iconic-bootstrap.css" />
+    
+</head>
+<body>
+
+<header class="header">
+       <h1 class="display-1">The Next Step</h1>
+   </header>
+    
+<nav class="navbar navbar-dark bg-inverse">
+        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            ☰
+        </button>
+        <div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar">
+            <a id="brand" class="navbar-brand" href="index.html">The Next Step</a>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="help.html">Things To Know</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="map">
+    <img src="https://maps.googleapis.com/maps/api/staticmap?center=39.5376285,-119.4419785&zoom=16&size=400x400&maptype=satellite&key=AIzaSyB3CHGwDD9oyrT5-9ZLF0YToSYY9I8qXks" alt="Tesla Gigafactory 1"/>
+</div>
+ 
+ <form class="form">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Full Name</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Doe">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">E-mail</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="johndoe@generic.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleTextarea">Tell us your thoughts on all this</label>
+    <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+  </div>
+</form>
+    
+<footer class="footer">
+    <div class="container">
+        <p class="copyRight">&copy; 2016 Jason Smyth inc.</p><p class="iconicList"><span class="iconic iconic-md iconic-social-facebook" title="facebook" aria-hidden="true"></span><span class="iconic iconic-md iconic-social-github" title="github" aria-hidden="true"></span><span class="iconic iconic-md iconic-social-reddit" title="reddit" aria-hidden="true"></span><span class="iconic iconic-md iconic-social-twitter" title="twitter" aria-hidden="true"></span></p>
+    </div>
+</footer>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

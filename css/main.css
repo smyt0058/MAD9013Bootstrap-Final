@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans');
+
+body {
+    background-image: url("img/kSQdCxM.jpg");
+    font-family: 'Quattrocento sans', 'Helvetica', 'Arial', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Quattrocento', 'Georgia', serif;
+}
+.header {
+    color:#1BA9AD;
+}
+.display-3 {
+    margin-bottom: 50px;
+    opacity: 0.99;
+}
+
+#brand {
+    color: #1BA9AD;
+}
+
+.lead {
+    opacity: 0.99;
+}
+
+.iconicList {
+    float: right;
+    position:relative;
+    top: -10px;
+}
+.iconic {
+    margin-right: 20px;
+    color: white;
+}
+
+.iconic:hover {
+    color:#1BA9AD;
+}
+
+.jumbotron {
+    background-color: #222;
+    color: #15C490;
+    
+}
+
+.card {
+    background-color: #222;
+    color: #15C490;
+}
+
+.container.help{
+    color: #15C490;
+    padding-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+}
+
+.btn {
+    color: #222;
+}
+
+.map {
+    width: 400px;
+    display: inline;
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.form {
+    background-color: #222;
+    padding: 15px;
+    color: #15C490;
+    display:inline-block;
+    width: 60%;
+    height: 400px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.footer {
+    height: 75px;
+    clear:both;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.copyRight {
+    color: white;
+    position:relative;
+    top: 30px;
+}
+
+ 
+
